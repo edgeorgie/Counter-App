@@ -41,7 +41,7 @@ button {
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
   height: 80%;
-  width: 80%;
+  width: 25%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -63,7 +63,6 @@ button {
   transition: 0.5s;
   background-size: 200% auto;
   color: white;            
-  box-shadow: 0 0 20px rgb(201, 84, 255);
   border-radius: 10px;
 }
 
@@ -81,7 +80,6 @@ button {
   transition: 0.5s;
   background-size: 200% auto;
   color: white;            
-  box-shadow: 0 0 20px rgb(201, 84, 255);
   border-radius: 10px;
 }
 
@@ -99,7 +97,6 @@ button {
   transition: 0.5s;
   background-size: 200% auto;
   color: white;            
-  box-shadow: 0 0 20px rgb(201, 84, 255);
   border-radius: 10px;
   margin-top: 50px;
 }
@@ -108,4 +105,14 @@ button {
   background-position: right center;
   color: #fff;
   text-decoration: none;
+}
+
+#save-btn:focus {
+  box-shadow: 0 0 20px rgb(201, 84, 255);
+}
+
+.record {
+  width: 80%;
+  height: 10vh;
+  overflow-y: hidden;
 }
